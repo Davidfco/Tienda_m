@@ -7,16 +7,114 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this temp
     <head>
         <title>TechShop</title>
         <meta charset="UTF-8">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
-        <a href="ejemplo4.html">Back</a>|
-        <a href="index.html">Home</a>|
-        <a href="ejemplo2.html">Next</a>|
-        
-        <h1 style="text-align: center; background-color: black; color: white">Home</h1>
-        <p>Esta es la primera pagina del curso...</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit, quam auctor eu sodales semper mauris sapien, fames euismod proin primis vestibulum ante. Maecenas ut justo turpis lacinia massa semper sodales luctus netus, nibh dui consequat felis nec venenatis nostra potenti, et integer leo pulvinar curae bibendum metus tempor. Sed nam dictumst purus accumsan himenaeos nec curabitur, mus senectus vitae metus posuere neque, sem parturient blandit risus quisque aliquam.</p>
-        <p>Dui ornare in tincidunt sapien purus litora lacus consequat mollis curae turpis vulputate curabitur, facilisi felis ad habitant eros fermentum arcu cursus vivamus montes mus taciti. Dignissim elementum ridiculus ornare lacus malesuada dui velit habitant duis hendrerit curabitur, viverra nulla rutrum etiam posuere tristique natoque vestibulum aptent erat, primis penatibus ultricies aliquam egestas torquent habitasse ultrices ante praesent. Id rutrum tempus sapien lectus aliquet ad posuere quam sodales sem, a parturient ac mi dictumst sollicitudin tristique habitasse ultricies, elementum vel at congue duis commodo felis et dignissim.</p>
-    
+        <header>
+            <a href="index.html"><h1>TechShop</h1>
+                <nav>
+                    <a href="ejemplo4.html">&triangleleft;</a>
+                    <a href="ejemplo2.html">&triangleright;</a> 
+                    <a href="ejemplo2.html">Nosotros</a> 
+                    <a href="ejemplo2.html">Gestion</a> 
+                    <a href="ejemplo2.html">Ventas</a> 
+                </nav>
+        </header>
+
+        <aside>
+            <h2 class="aviso">Ultimas Noticias</h2>
+            <p>Segun el informe de ventas el producto mas vendido de nuestra tienda es el xt-125. Muchas gracias por preferirnos.</p>    
+        </aside>
+
+        <section>
+            <h2>Nuestro productos</h2>
+            <article>
+                <h3>XR-128</h3>
+                <figure>
+                    <img src="https://www.barcimaster.com/wp-content/uploads/2020/10/iphone-xr-blue-select-201809.png" height="150" alt="alt"/>
+                    <figcaption>¢650.000.oo <a href="#">Add</a></figcaption>
+                </figure>
+                <p class="aviso">Lorem ipsum dolor sit amet consectetur adipiscing elit, quam auctor eu sodales semper mauris sapien, fames euismod proin primis vestibulum ante. Maecenas ut justo turpis lacinia massa semper sodales luctus netus, nibh dui consequat felis nec venenatis nostra potenti, et integer leo pulvinar curae bibendum metus tempor. Sed nam dictumst purus accumsan himenaeos nec curabitur, mus senectus vitae metus posuere neque, sem parturient blandit risus quisque aliquam.</p>
+                <hr/>
+            </article>
+
+            <article>
+                <h3>AD-801</h3>
+                <figure>
+                    <img src="https://www.polyscience.com/media/rybnzlnv/ad45r_fr_084.png" height="150" alt="alt"/>
+                    <figcaption>¢350.000.oo <a href="#">Add</a></figcaption>
+                </figure>
+                <p>Dui ornare in tincidunt sapien purus litora lacus consequat mollis curae turpis vulputate curabitur, facilisi felis ad habitant eros fermentum arcu cursus vivamus montes mus taciti. Dignissim elementum ridiculus ornare lacus malesuada dui velit habitant duis hendrerit curabitur, viverra nulla rutrum etiam posuere tristique natoque vestibulum aptent erat, primis penatibus ultricies aliquam egestas torquent habitasse ultrices ante praesent. Id rutrum tempus sapien lectus aliquet ad posuere quam sodales sem, a parturient ac mi dictumst sollicitudin tristique habitasse ultricies, elementum vel at congue duis commodo felis et dignissim.</p>
+                <hr/>
+            </article>
+
+            <article>
+                <h3>VIVO-X</h3>
+                <figure>
+                    <img src="https://media2.gsm55.com/media/device/4733/4733.png" height="150" alt="alt"/>
+                    <figcaption>¢250.000.oo <a href="#">Add</a></figcaption>
+                </figure>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit <span class="aviso">mattis magnis, fringilla feugiat fames lacus etiam est natoque dictumst nunc, quis aliquet sagittis semper penatibus mauris</span> massa tempor. Fames condimentum tempor sociis donec convallis ligula lacinia cubilia, nostra porttitor curabitur lacus faucibus ullamcorper sagittis, habitasse vehicula aliquam interdum ac cras tempus. Non erat lectus parturient ligula ac ullamcorper iaculis vivamus at, nibh tellus pretium porta auctor scelerisque suscipit. Habitasse blandit faucibus quis nostra ante aenean habitant, est pellentesque etiam pharetra lacus lacinia, ad mattis convallis turpis montes class.</p>
+                <hr/>
+            </article>
+
+            <article>
+                <h3>Listado de productos</h3>
+                <table border="0">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Codigo</th>
+                            <th>Precio</th>
+                            <th>Cantidad</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>XR-128</td>
+                            <td>¢650.000.oo</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>AD-821</td>
+                            <td>¢350.000.oo</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>VIVO-X</td>
+                            <td>¢250.000.oo</td>
+                            <td>5</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>XR-128</td>
+                            <td>¢650.000.oo</td>
+                            <td>4</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>AD-821</td>
+                            <td>¢350.000.oo</td>
+                            <td>2</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>VIVO-X</td>
+                            <td>¢250.000.oo</td>
+                            <td>5</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </article>
+
+        </section>
+
+        <footer>
+            Derechos Reservados TechShop 2023 &COPY;
+        </footer>
     </body>
 </html>
